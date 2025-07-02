@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run k6 example script",
+			"command": "k6 run scripts/example.js",
+			"group": "test",
+			"problemMatcher": []
+		}
+	]
+}
